@@ -1,0 +1,14 @@
+*.pyc
+*.DS_Store
+*.egg*
+/dist/
+/.idea
+/docs/_build/
+/node_modules/
+build/
+env
+
+#src
+*.sqlite*
+
+.env
