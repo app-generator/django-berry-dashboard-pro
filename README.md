@@ -1,4 +1,4 @@
-# [Django Berry Dashboard](https://github.com/app-generator/django-berry-dashboard-pro)
+# [Django Berry PRO](https://github.com/app-generator/django-berry-dashboard-pro) `Starter`
 
 **Django** starter styled with **Berry Dashboard PRO**, a premium `Boostrap 5` design from [CodedThemes](https://codedthemes.com/?ref=appseed)
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. `Berry` has easy and intuitive responsive design whether it is viewed on retina screens or laptops.
