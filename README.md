@@ -5,7 +5,7 @@ The product is designed to deliver the best possible user experience with highly
 
 > 👉 **NOTE**: This product `requires a License` in order to access the theme:
 
-`Private REPO`: `git+https://github.com/app-generator/priv-django-admin-berry-pro`
+**Private REPO**: `git+https://github.com/app-generator/priv-django-admin-berry-pro`
 
 <br />
 
