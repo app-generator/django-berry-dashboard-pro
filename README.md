@@ -1,12 +1,12 @@
-# [Django Berry Dashboard](https://blog.appseed.us/django-berry-bootstrap-5-free/)
+# [Django Berry Dashboard](https://github.com/app-generator/django-berry-dashboard-pro)
 
-Open-source **Django** project crafted on top of **Berry Dashboard**, an open-source `Boostrap 5` design from [CodedThemes](https://codedthemes.com/?ref=appseed)
+**Django** starter styled with **Berry Dashboard PRO**, a premium `Boostrap 5` design from [CodedThemes](https://codedthemes.com/?ref=appseed)
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. `Berry` has easy and intuitive responsive design whether it is viewed on retina screens or laptops.
 
 > Features: 
 
 - ✅ `Up-to-date Dependencies`
-- ✅ Theme: [Django Admin Berry](https://github.com/app-generator/django-admin-berry)
+- ✅ Theme: Django Admin Berry - `PRO Version`
 - ✅ `Docker`
 - ✅ **Authentication**: `Django.contrib.AUTH`, Registration
 - 🚀 Free [Support](https://appseed.us/support/) via `Email` & `Discord` 
@@ -22,8 +22,8 @@ The product is designed to deliver the best possible user experience with highly
 > 👉 Download the code  
 
 ```bash
-$ git clone https://github.com/app-generator/django-berry-dashboard.git
-$ cd django-berry-dashboard
+$ git clone https://github.com/app-generator/django-berry-dashboard-pro.git
+$ cd django-berry-dashboard-pro
 ```
 
 <br />
@@ -95,4 +95,4 @@ At this point, the app runs at `http://127.0.0.1:8000/`.
 <br />
 
 ---
-[Django Berry Dashboard](https://blog.appseed.us/django-berry-bootstrap-5-free/) - Minimal **Django** starter provided by **[AppSeed](https://appseed.us/)**
+[Django Berry Dashboard](https://github.com/app-generator/django-berry-dashboard-pro) - Minimal **Django** starter provided by **[AppSeed](https://appseed.us/)**
