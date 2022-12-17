@@ -1,15 +1,23 @@
 # [Django Berry PRO](https://github.com/app-generator/django-berry-dashboard-pro) `Starter`
 
 **Django** starter styled with **Berry Dashboard PRO**, a premium `Boostrap 5` design from [CodedThemes](https://codedthemes.com/?ref=appseed)
-The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. `Berry` has easy and intuitive responsive design whether it is viewed on retina screens or laptops.
+The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
 
-> Features: 
+> NOTE: This product requires a License in order to access the theme (private repository):
+- `git+https://github.com/app-generator/priv-django-admin-berry-pro`
+
+<br />
+
+## Features: 
 
 - ✅ `Up-to-date Dependencies`
-- ✅ Theme: Django Admin Berry - `PRO Version`
+- ✅ `Design`: [Django Theme Berry](https://github.com/app-generator/django-admin-berry-pro) - `PRO Version`
+- ✅ `Sections` covered by the design:
+  - ✅ **Admin section** (reserved for superusers)
+  - ✅ **Authentication**: `Django.contrib.AUTH`, Registration
+  - ✅ **All Pages** available in for ordinary users 
 - ✅ `Docker`
-- ✅ **Authentication**: `Django.contrib.AUTH`, Registration
-- 🚀 Free [Support](https://appseed.us/support/) via `Email` & `Discord` 
+- 🚀 [Support](https://appseed.us/support/) via `Email` & `Discord` 
 
 <br />
 
