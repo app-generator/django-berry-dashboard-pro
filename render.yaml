@@ -9,7 +9,7 @@ services:
     buildCommand: "./build.sh"
     startCommand: "gunicorn core.wsgi:application"
     envVars:
-      - key: postgres://USER:PASSWORD@INTERNAL_HOST:PORT/DATABASE
+      - key: postgres://berry_h7wm_user:TubYBXIgujTR7h0MCcFUoOJ5Q45M8JA9@dpg-cefvgokgqg4b3hc0snig-a/berry_h7wm
         fromDatabase:
           name: berry
           property: connectionString
