@@ -1,0 +1,18 @@
+databases:
+  - name: berry
+
+services:
+  - type: web
+    name: berry
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn core.wsgi:application"
+    envVars:
+      - key: postgres://USER:PASSWORD@INTERNAL_HOST:PORT/DATABASE
+        fromDatabase:
+          name: berry
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: WEB_CONCURRENCY
+        value: 4
