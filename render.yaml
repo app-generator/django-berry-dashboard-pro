@@ -1,17 +1,18 @@
 databases:
-  - name: berry
+  - name: berry   # this name should be same as your RENDER database name
 
 services:
   - type: web
-    name: berry
+    name: berry-services
     plan: free
     env: python
+    region: singapore  # region should be same as your database region, if your database region is different then you have to change this region as well.
     buildCommand: "./build.sh"
     startCommand: "gunicorn core.wsgi:application"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: berry
+          name: berry  # this name should be same as your RENDER database name
           property: connectionString
       - key: SECRET_KEY
         generateValue: true
