@@ -1,8 +1,8 @@
 django
 gunicorn
-git+https://github.com/app-generator/priv-django-admin-berry-pro
 python-dotenv
 whitenoise
+git+https://app-generator@github.com/app-generator/priv-django-admin-berry-pro
 
 # psycopg2-binary
 # mysqlclient
