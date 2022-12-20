@@ -58,19 +58,19 @@ DEBUG=True
 
 <br />
 
-> 👉 Set Up Database, you have to specify the database name `postgres_default` or `fallback_db`
+> 👉 Set Up Database
 
 ```bash
-$ python manage.py makemigrations --database=postgres_default
-$ python manage.py migrate --database=postgres_default
+$ python manage.py makemigrations
+$ python manage.py migrate
 ```
 
 <br />
 
-> 👉 Create the Superuser, you have to specify the database name `postgres_default` or `fallback_db`
+> 👉 Create the Superuser
 
 ```bash
-$ python manage.py createsuperuser --database=postgres_default
+$ python manage.py createsuperuser
 ```
 
 <br />
