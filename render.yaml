@@ -1,7 +1,7 @@
 services:
   - type: web
     name: django-berry-dashboard-pro
-    plan: free
+    plan: starter
     env: python
     region: singapore  # region should be same as your database region.
     buildCommand: "./build.sh"
