@@ -37,7 +37,20 @@ $ cd django-berry-dashboard-pro
 
 <br />
 
-> 👉 Install modules via `VENV` and you need to change your `requirements.txt` files github private repository link with `git+https://${GITHUB_TOKEN}@github.com/user/project.git@{version}`
+> Export `GITHUB_TOKEN` in the environment. The value is provided by AppSeed during purchase. 
+
+This is required because the project has a private REPO dependency: `github.com/app-generator/priv-django-admin-berry-pro`
+
+```bash
+$ export GITHUB_TOKEN='TOKEN_HERE'  # for Linux, Mac
+$ set GITHUB_TOKEN='TOKEN_HERE'     # Windows CMD
+$ $env:GITHUB_TOKEN = 'TOKEN_HERE'  # Windows powerShell 
+```
+
+<br />
+
+> 👉 Install modules via `VENV`.
+
 
 ```bash
 $ virtualenv env
