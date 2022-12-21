@@ -4,6 +4,7 @@
 ### Changes
 
 - DOCS Update
+- Fix Render Deployment
 
 ## [1.0.0] 2022-12-20
 ### Changes
