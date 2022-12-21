@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: django-berry-pro
+    name: django-berry-dashboard-pro
     plan: free
     env: python
     region: singapore  # region should be same as your database region.
