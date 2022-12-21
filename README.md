@@ -3,8 +3,24 @@
 **Django** starter styled with **Berry Dashboard PRO**, a premium `Boostrap 5` design from [CodedThemes](https://codedthemes.com/?ref=appseed)
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
 
-> 👉 **NOTE**: This product `requires a License` in order to access the theme. During the purchase, a `GitHub Access TOKEN` is provided. 
+> **NOTE**: This product `requires a License` in order to access the theme. During the purchase, a `GitHub Access TOKEN` is provided. 
 
+- 👉 [Django Berry PRO](https://django-berry-pro.onrender.com/) - `LIVE Demo` on Render
+- 🚀 [Support](https://appseed.us/support/) via `Email` & `Discord`
+
+<br />
+
+## Purchase Product via `GUMROAD`
+
+- 🛒 `Personal License`: **[PAY - $49](https://appseed.gumroad.com/l/django-berry-pro)** (payment link)
+  - Usage [terms](https://github.com/app-generator/license-personal): `Support & Updates: 6mo`
+  
+- 🛒 `StartUp License`: **[PAY - $99](https://appseed.gumroad.com/l/django-berry-pro-startup)** (payment link)
+  - Usage [terms](https://github.com/app-generator/license-startup): `Support & Updates: 12mo`
+  
+- 🛒 `Personal License`: **[PAY - $199](https://appseed.gumroad.com/l/django-berry-pro-company)** (payment link)
+  - Usage [terms](https://github.com/app-generator/license-personal): `Support & Updates: Lifetime`, **SaaS** products allowed
+  
 <br />
 
 ## Features: 
@@ -16,7 +32,7 @@ The product is designed to deliver the best possible user experience with highly
   - ✅ **Authentication**: `Django.contrib.AUTH`, Registration
   - ✅ **All Pages** available in for ordinary users 
 - ✅ `Deployment-Ready` for Render  
-- 🚀 [Support](https://appseed.us/support/) via `Email` & `Discord` 
+ 
 
 <br />
 
