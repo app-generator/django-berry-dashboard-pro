@@ -10,11 +10,11 @@ This document explains the usage terms for all **commercial** products (apps/too
 
 Used terms: 
 
-- Solo-Developer: code digital products as freelencer (without being incorporated in a company)
-- StartUp - young company founded 12mo (or less) in the past
-- Small Company - maximum 3 developers, active for more than 1year 
-- Company - More than 4 developers and less than 50
-- Corporate - More than 50 developers 
+- `Solo-Developer`: code digital products as freelencer (without being incorporated in a company)
+- `StartUp` - young company founded 12mo (or less) in the past
+- `Small Company` - maximum 3 developers, active for more than 1year 
+- `Company` - More than 4 developers and less than 50
+- `Corporate` - More than 50 developers 
 
 <br />
 
@@ -66,8 +66,8 @@ Used terms:
 | Product sale | ✅ |
 | Create multiple personal websites/apps | ✅ |
 | Create multiple websites/apps for clients | ✅ |
-| SaaS application | ✅ |
 | Remove footer credits | ✅ |
+| SaaS application | ✅ |
 
 <br />
 
