@@ -37,7 +37,7 @@ $ cd django-berry-dashboard-pro
 
 <br />
 
-> 👉 Install modules via `VENV`  
+> 👉 Install modules via `VENV` and you need to change your `requirements.txt` files github private repository link with `git+https://${GITHUB_TOKEN}@github.com/user/project.git@{version}`
 
 ```bash
 $ virtualenv env
