@@ -31,8 +31,9 @@ The product is designed to deliver the best possible user experience with highly
   - ✅ **Admin section** (reserved for superusers)
   - ✅ **Authentication**: `Django.contrib.AUTH`, Registration
   - ✅ **All Pages** available in for ordinary users 
-- ✅ `Deployment-Ready` for Render  
- 
+- ✅ `Docker`
+- 🚀 `Deployment` 
+  - `CI/CD` flow via `Render`
 
 <br />
 
@@ -51,7 +52,7 @@ $ cd django-berry-dashboard-pro
 
 <br />
 
-> Export `GITHUB_TOKEN` in the environment. The value is provided by AppSeed during purchase. 
+> Export `GITHUB_TOKEN` in the environment. The value is `provided by AppSeed during purchase`. 
 
 This is required because the project has a private REPO dependency: `github.com/app-generator/priv-django-admin-berry-pro`
 
