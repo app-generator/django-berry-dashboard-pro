@@ -1,11 +1,12 @@
-# [Django Berry PRO](https://github.com/app-generator/django-berry-dashboard-pro) `Starter`
+# [Django Berry PRO](https://appseed.us/product/berry-dashboard-pro/django/) `Starter`
 
 **Django** starter styled with **Berry Dashboard PRO**, a premium `Bootstrap 5` design from [CodedThemes](https://codedthemes.com/?ref=appseed)
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
 
 > **NOTE**: This product `requires a License` in order to access the theme. During the purchase, a `GitHub Access TOKEN` is provided. 
 
-- 👉 [Django Berry PRO](https://django-berry-pro.onrender.com) - `LIVE Demo` on Render
+- 👉 [Django Berry PRO](https://appseed.us/product/berry-dashboard-pro/django/) - `Product page`
+- 👉 [Django Berry PRO](https://django-berry-pro.onrender.com) - `LIVE Demo`
 - 🚀 [Support](https://appseed.us/support/) via `Email` & `Discord`
 
 <br />
@@ -119,4 +120,4 @@ At this point, the app runs at `http://127.0.0.1:8000/`.
 <br />
 
 ---
-[Django Berry Dashboard](https://github.com/app-generator/django-berry-dashboard-pro) - Minimal **Django** starter provided by **[AppSeed](https://appseed.us/)**
+[Django Berry PRO](https://appseed.us/product/berry-dashboard-pro/django/) `Starter` - Minimal **Django** starter provided by **[AppSeed](https://appseed.us/)**
