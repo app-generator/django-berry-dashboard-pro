@@ -10,19 +10,6 @@ The product is designed to deliver the best possible user experience with highly
 
 <br />
 
-## Purchase Product via `GUMROAD`
-
-- 🛒 `Personal License`: **[PAY - $49](https://appseed.gumroad.com/l/django-berry-pro)** (payment link)
-  - Usage [terms](https://github.com/app-generator/license-personal): `Support & Updates: 6mo`
-  
-- 🛒 `StartUp License`: **[PAY - $99](https://appseed.gumroad.com/l/django-berry-pro-startup)** (payment link)
-  - Usage [terms](https://github.com/app-generator/license-startup): `Support & Updates: 12mo`
-  
-- 🛒 `company License`: **[PAY - $199](https://appseed.gumroad.com/l/django-berry-pro-company)** (payment link)
-  - Usage [terms](https://github.com/app-generator/license-personal): `Support & Updates: Lifetime`, **SaaS** products allowed
-  
-<br />
-
 ## Features: 
 
 - ✅ `Up-to-date Dependencies`
