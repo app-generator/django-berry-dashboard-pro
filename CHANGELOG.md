@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.3] 2023-01-03
+### Changes
+
+- DOCS Update (readme)
+- Publish product on AppSeed:
+  - [Django Berry PRO](https://appseed.us/product/berry-dashboard-pro/django/) - `fully configured`
+  
 ## [1.0.2] 2023-01-03
 ### Changes
 
