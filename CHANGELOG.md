@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.7] 2024-03-28
+### Changes
+
+- Fixes:
+  - Pagination not shown on DT
+
 ## [1.0.6] 2024-02-27
 ### Changes
 
