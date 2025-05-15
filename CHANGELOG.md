@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.8] 2025-05-15
+### Changes
+
+- Codebase Refactoring
+- Added Dynamic Services
+- React Integration 
+
 ## [1.0.7] 2024-03-28
 ### Changes
 
@@ -39,7 +46,7 @@
 
 - DOCS Update (readme)
 - Publish product on AppSeed:
-  - [Django Berry PRO](https://appseed.us/product/berry-dashboard-pro/django/) - `fully configured`
+  - [Django Berry PRO](https://app-generator.dev/product/berry-dashboard-pro/django/) - `fully configured`
   
 ## [1.0.2] 2023-01-03
 ### Changes

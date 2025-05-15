@@ -1,241 +1,79 @@
 # [Django Berry PRO](https://appseed.us/product/berry-dashboard-pro/django/)
 
-**Django** starter styled with **[Berry Dashboard PRO](https://appseed.us/product/berry-dashboard-pro/django/)**, a premium `Bootstrap 5` design from `CodedThemes`.
+**Premium Django Starter** crafted on top of **[Berry PRO](https://app-generator.dev/product/berry-dashboard/)**, a premium `Bootstrap` UI Kit released by [CodedThemes](https://app-generator.dev/agency/codedthemes/). 
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
 
 - 🛒 [Django Berry PRO](https://appseed.us/product/berry-dashboard-pro/django/) - `Product page` (contains payment links)
-- 👉 [Django Berry PRO](https://django-berry-pro.onrender.com) - `LIVE Demo`
+- 👉 [Django Berry PRO](https://django-berry-pro.onrender.com/dashboard/) - `LIVE Demo`
+- 👉 [Django Berry PRO](https://app-generator.dev/docs/products/django/berry-pro/index.html) - `Documentation` (learn how to use the product)
 
 <br />
 
 ## Features
 
-- `Up-to-date dependencies`
-- Database: `SQLite`, PgSQL, MySql
-- **Authentication**
-  - `Session-Based authentication`
-  - `Social Login`: **Github** & **Google**
-- **User Extended profile**
-- **API** via DRF
-- DataTables
-- Charts
-- Celery
-- File Manager
-- i18n (internationalization) 
-- `Docker`
+- Simple, Easy-to-Extend Codebase
+- [Berry Dashboard](https://app-generator.dev/product/berry-dashboard/) Design Integration 
+- Bootstrap Styling 
+- DB Persistence: SQLite (default), can be used with MySQL, PostgreSQL
+- Extended User Profiles
+- Authentication
+   - Session-based 
+   - OAuth GitHub, Google
+- Apps:
+  - [DEMO](https://django-berry-pro.onrender.com/dynamic-dt/product/) **Dynamic DataTables** - generate server-side datatables without coding  
+  - [DEMO](https://django-berry-pro.onrender.com/api/product/) **Dynamic APIs** - Expose secure APIs without coding  
+  - [DEMO](https://django-berry-pro.onrender.com/charts/) **Charts** - powered by ApexCharts 
+  - [DEMO](https://django-berry-pro.onrender.com/react-charts) **React Integration**
+  - **Media Files Manager** - empower users to manage and preview files with ease
+  - **Celery** (async tasks)
+- [Django CLI Package](https://app-generator.dev/docs/developer-tools/django-cli/index.html)
+    - `Commit/rollback Git Changes`
+    - `Backup & restore DB`
+    - `Interact with Django Core`
+    - `Manage Environment`
+    - `Manage Dependencies`  
+- [Deployment](https://app-generator.dev/docs/deployment.html)
+  - Docker/Docker Compose Scripts 
+  - CI/CD for [Render](https://app-generator.dev/docs/deployment/render/index.html)
+- [Vite](https://app-generator.dev/docs/technologies/vite/index.html) for assets management
+
+<br />
+
+## [Documentation](https://app-generator.dev/docs/products/django/berry-pro/index.html)
+
+- Understand the codebase structure
+- Prepare the environment
+- Setting Up the Database
+- Start the Project
+- Switch from SQLite to MySql or PgSql
+- Add a new model and migrate database
+- Enable `Dynamic Tables` for a new model
+- Enable `Dynamic API` for a new model
+- Deploy on Render
 
 ![Berry Bootstrap 5 PRO - Premium Template Django Template.](https://user-images.githubusercontent.com/51070104/215728155-9b9cfe26-96e8-49c3-8a08-131d96f4f2eb.png)
 
 <br />
 
-## Start in `Docker`
+## `Customize` with [Django App Generator](https://app-generator.dev/tools/django-generator/)
 
-> **Step 1** - Download the [code](https://appseed.us/product/berry-dashboard-pro/django/) and unzip the sources (requires a `purchase`). 
+- Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
+- Select the preferred design
+- (Optional) Design Database: edit models and fields
+- (Optional) Edit the fields for the extended user model
+- (Optional) Enable OAuth for GitHub
+- (Optional) Add Celery (async tasks)
+- (Optional) Enable Dynamic API Module
+- Docker Scripts
+- Render CI/Cd Scripts
 
-```bash
-$ unzip django-berry-pro.zip
-$ cd django-berry-pro
-```
+**The generated Django project is available as a ZIP Archive and also uploaded to GitHub.**
 
-<br />
+![Django Generator - User Interface for choosing the Design](https://github.com/user-attachments/assets/b989c434-1c53-49ff-8dda-b46dbfc142ac) 
 
-> **Step 2** - Start the APP in `Docker`
-
-```bash
-# Optional (kill all existing containers)
-$ docker container kill $(docker ps -q) ; docker container rm $(docker ps -a -q) ; docker network prune -f 
-# Start the APP
-$ docker-compose up --build 
-```
-
-Visit `http://localhost:5085` in your browser. The app should be up & running.
-
-<br />
-
-## Create new `.env` from `env.sample`
-
-The meaning of each variable can be found below: 
-
-- `DEBUG`: if `True` the app runs in develoment mode
-  - For production value `False` should be used
-- `MYSQL` credentials 
-  - `DB_ENGINE`, default value = `mysql`
-  - `DB_NAME`, default value = `appseed_db`
-  - `DB_HOST`, default value = `localhost`
-  - `DB_PORT`, default value = `3306`
-  - `DB_USERNAME`, default value = `appseed_db_usr`
-  - `DB_PASS`, default value = `pass`
-- `OAuth` via Github
-  - `GITHUB_ID`=<GITHUB_ID_HERE>
-  - `GITHUB_SECRET`=<GITHUB_SECRET_HERE> 
-- `OAuth` via Google
-  - `GOOGLE_CLIENT_ID`=<GOOGLE_ID_HERE>
-  - `GOOGLE_SECRET_KEY`=<GOOGLE_SECRET_HERE> 
-
-<br />
-
-## Manual Build
-
-> **Step 1** - Download the [code](https://appseed.us/product/berry-dashboard-pro/django/) and unzip the sources (requires a `purchase`). 
-
-```bash
-$ unzip django-berry-pro.zip
-$ cd django-berry-pro
-```
-
-<br />
-
-### 👉 Set Up for `Unix`, `MacOS` 
-
-> Install modules via `VENV`  
-
-```bash
-$ virtualenv env
-$ source env/bin/activate
-$ pip3 install -r requirements.txt
-```
-
-<br />
-
-> Set Up Database
-
-```bash
-$ python manage.py makemigrations
-$ python manage.py migrate
-```
-
-<br />
-
-> Create Superuser
-
-```bash
-$ python manage.py createsuperuser
-```
-
-<br />
-
-> Start the app
-
-```bash
-$ python manage.py runserver
-```
-
-At this point, the app runs at `http://127.0.0.1:8000/`. 
-
-<br />
-
-### 👉 Set Up for `Windows` 
-
-> Install modules via `VENV` (windows) 
-
-```
-$ virtualenv env
-$ .\env\Scripts\activate
-$ pip3 install -r requirements.txt
-```
-
-<br />
-
-> Set Up Database
-
-```bash
-$ python manage.py makemigrations
-$ python manage.py migrate
-```
-
-<br />
-
-> Start the app
-
-```bash
-$ python manage.py runserver
-```
-
-At this point, the app runs at `http://127.0.0.1:8000/`. 
-
-<br />
-
-### 👉 Create Users
-
-By default, the app redirects guest users to authenticate. In order to access the private pages, follow this set up: 
-
-- Start the app
-- Access the `registration` page and create a new user:
-  - `http://127.0.0.1:8000/register/`
-- Access the `sign in` page and authenticate
-  - `http://127.0.0.1:8000/login/`
-
-<br />
-
-## Start Celery (async task)
-
-- Make sure you have a Redis Server running: `redis://localhost:6379`
-  - `$ redis-cli` and type `ping` 
-- In the base directory inside `tasks_scripts` folder you need to write your scripts file.
-- Run the celery command from the CLI.
-
-```bash
-$ export DJANGO_SETTINGS_MODULE="core.settings"  
-$ celery -A apps.tasks worker -l info -B
-```
-
-- You will see a new route `Apps -> Tasks` in the sidebar.
-- You can start and cancel any task from the UI.
-
-<br />
-
-## Enable Social Login 
-
-> 👉 **Github Setup** - [Create an OAuth App](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app)
-
-- SignIN to `Github`
-- Access `Settings` -> `Developer Settings` -> `OAuth Apps`
-- Edit your OAuth App
-  - `App Name`
-  - `App Description`
-  - (mandatory) `HomePage`: `https://localhost:8000`
-  - (mandatory) `Authorization callback URL`: `https://localhost:8000/`
-  - Generate a new `secret key`
-
-<br />
-
-## Codebase
-
-The project is coded using a simple and intuitive structure presented below:
-
-```bash
-< PROJECT ROOT >
-   |
-   |-- core/              # Implements app configuration
-   |    |-- settings.py   # Defines Global Settings
-   |    |-- wsgi.py       # Start the app in production
-   |    |-- urls.py       # Define URLs served by all apps/nodes
-   |
-   |-- home/              # Serves all pages from the UI Kit  
-   |
-   |-- apps/
-   |    |
-   |    |-- common/       # Assets used by all APPS (models, helpers)
-   |    |-- users/        # Handles Auth Flow
-   |    |-- api/          # DRF API
-   |    |-- charts/       # Charts APP
-   |    |-- tables/       # DataTables APP
-   |    |-- tasks/        # Celery App
-   |
-   |-- templates/         # Pages & Templates   
-   |-- assets/            # Static Assets [ JS, CSS, images ]   
-   |
-   |-- requirements.txt   # Development modules - SQLite storage
-   |
-   |-- .env               # Environment
-   |-- env.sample         # Environment Sample
-   |
-   |-- manage.py          # Django Manager File
-   |
-   |-- ************************************************************************
-```
+![Django App Generator - User Interface for Edit the Extended User Model](https://github.com/user-attachments/assets/f1a5fb68-a5ba-49c9-a3ae-91716de09912) 
 
 <br />
 
 ---
-[Django Berry PRO](https://appseed.us/product/berry-dashboard-pro/django/) - Starter crafted by **[AppSeed](https://appseed.us/)**.
+[Django Berry PRO](https://appseed.us/product/berry-dashboard-pro/django/) - Premium **Django** Starter provided by [App Generator](https://app-generator.dev).
