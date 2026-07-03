@@ -21,8 +21,6 @@ A clean, modular Django boilerplate integrated with the modern Berry Dashboard l
 
 <br />
 
-<br />
-
 ## Technical Components & Utility Advantages
 
 - **Premium Bootstrap Structure**: Built on top of clean, semantic Bootstrap CSS. It leverages standard Bootstrap responsive grids and utility classes, making it easy to override styles and customize themes without adding unnecessary bloat.
