@@ -1,49 +1,39 @@
-# [Django Berry PRO](https://app-generator.dev/product/berry-dashboard-pro/django/)
+# [Django Berry](https://app-generator.dev/product/berry-dashboard/django/)
 
-**Premium Django Starter** crafted on top of **[Berry PRO](https://app-generator.dev/product/berry-dashboard-pro/django/)**, a premium `Bootstrap` UI Kit released by [CodedThemes](https://app-generator.dev/agency/codedthemes/). 
-The product is designed to deliver the best possible user experience with highly customizable, feature-rich pages. 
+A clean, modular Django boilerplate integrated with the modern Berry Dashboard layout and styled entirely using premium Bootstrap components. This starter handles the core architectural plumbing, allowing you to bypass repetitive configuration and jump straight to feature implementation.
 
-- 🛒 [Django Berry PRO](https://app-generator.dev/product/berry-dashboard-pro/django/) - `Product page` (contains payment links)
-- 👉 [Django Berry PRO](https://django-berry-pro.onrender.com/dashboard/) - `LIVE Demo`
-- 👉 [Django Berry PRO](https://app-generator.dev/docs/products/django/berry-pro/index.html) - `Documentation`
+> Provided by [App-Generator](https://app-generator.dev/) - **Helping entrepreneurs build products with continuous human support**
 
 <br />
 
-## LICENSE 
+- 👉 [Django Berry](https://app-generator.dev/product/berry-dashboard/django/) - `Product page`
+- 👉 [Django Berry](https://django-berry.app-generator.dev/dashboard/) - `LIVE Demo`
 
-> The **product is available for [Subscribers ONLY](https://app-generator.dev/terms/)**. For more information and products, feel free to access the [App-Generator](https://app-generator.dev/) platform.
- 
 <br />
 
-## Features
+## LICENSE Update
 
-- Simple, Easy-to-Extend Codebase
-- [Berry Dashboard](https://app-generator.dev/product/berry-dashboard/) Design Integration 
-- Bootstrap Styling 
-- DB Persistence: SQLite (default), can be used with MySQL, PostgreSQL
-- Extended User Profiles
-- Authentication
-   - Session-based 
-   - OAuth GitHub, Google
-- Apps:
-  - [DEMO](https://django-berry-pro.onrender.com/dynamic-dt/product/) **Dynamic DataTables** - generate server-side datatables without coding  
-  - [DEMO](https://django-berry-pro.onrender.com/api/product/) **Dynamic APIs** - Expose secure APIs without coding  
-  - [DEMO](https://django-berry-pro.onrender.com/charts/) **Charts** - powered by ApexCharts 
-  - [DEMO](https://django-berry-pro.onrender.com/react-charts) **React Integration**
-  - **Media Files Manager** - empower users to manage and preview files with ease
-  - **Celery** (async tasks)
-- [Django CLI Package](https://app-generator.dev/docs/developer-tools/django-cli/index.html)
-    - `Commit/rollback Git Changes`
-    - `Backup & restore DB`
-    - `Interact with Django Core`
-    - `Manage Environment`
-    - `Manage Dependencies`  
-- [Deployment](https://app-generator.dev/docs/deployment.html)
-  - Docker/Docker Compose Scripts 
-  - CI/CD for [Render](https://app-generator.dev/docs/deployment/render/index.html)
-- [Vite](https://app-generator.dev/docs/technologies/vite/index.html) for assets management
+> **Product is available for subscribers ONLY** - See [Pricing](https://app-generator.dev/terms/).
+
+<br />
+
+<img width="800" height="500" alt="Django Berry Dashboard - provided by App-Generator - Helping entrepreneurs build products with continuous human support" src="https://github.com/user-attachments/assets/7e8a9963-2fdd-46d4-92eb-15ca11ce865a" />
+
+<br />
+
+<br />
+
+## Technical Components & Utility Advantages
+
+- **Premium Bootstrap Structure**: Built on top of clean, semantic Bootstrap CSS. It leverages standard Bootstrap responsive grids and utility classes, making it easy to override styles and customize themes without adding unnecessary bloat.
+- **Decoupled, Modular Codebase**: Adheres to strict Django best practices. The codebase is organized logically, making it easy to inspect, refactor, and maintain.
+- **Dynamic Tables & API Engine**: Automates data presentation and endpoint generation directly from your database models, saving hours of manual CRUD development.
+- **Async Processing (Celery Ready)**: Pre-configured Celery task queues for handling asynchronous processing, background emails, or heavy analytical computations out of the box.
+- **React Interoperability**: Includes an integrated pipeline to load and run React components smoothly inside traditional Django views.
+- **Built-in File Manager**: A clean, lightweight asset management utility featuring native browser preview support for common file formats.
+- **Data Visualization**: Pre-integrated ApexJS analytics wrappers for rendering fluid charts and tracking business metrics.
 
 <br />
 
 ---
-[Django Berry PRO](https://app-generator.dev/product/berry-dashboard-pro/django/) - Premium **Django** Starter provided by [App Generator](https://app-generator.dev).
+Provided by [App-Generator](https://app-generator.dev/) - **Helping entrepreneurs build products with continuous human support**
